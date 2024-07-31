@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg','**/*.PNG'],
-})
+  build: {
+    rollupOptions: {
+      input: './index.html', // Asegúrate de que este archivo esté presente en la carpeta raíz
+    },
+  },
+  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg', '**/*.PNG'],
+});
