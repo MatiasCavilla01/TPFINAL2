@@ -6,22 +6,11 @@
 .hero{
     background:var(--light-blue);
     height: 80vh;
-    display: flex;
-    /* width: 98%; */
+    display: flex;    
     margin: 0% 0% 0% 0%;
 }
 
-.firma {
-    transform: rotate(-25deg);
-    position: absolute;
-    font-size: 12.5vw;
-    font-family:'Caveat';
-    font-weight: 800;
-    color: #303247;
-    margin: 0;
-    bottom: 22vw;
-    right: 9vw
-}
+
 
 .contenedor{    
     margin: 0% 15%;
@@ -39,7 +28,7 @@
     flex: 1 1 600px;
     position: relative;
     margin-left: 49%;
-    margin-top: -70%; 
+    margin-top: -65%; 
     width: 100%;
     max-width: 300px;
     height: auto;

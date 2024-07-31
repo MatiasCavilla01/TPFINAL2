@@ -1,21 +1,28 @@
 import Header from "./assets/components/header/header"
-import './app.css'
 import Hero from "./assets/components/hero/hero"
 import Services from "./assets/components/servicios/services"
 import Skills from "./assets/components/skills/skills"
 import Aboutme from "./assets/components/contact/aboutme"
+import { ChakraProvider,Box } from "@chakra-ui/react"
 
 
 const  App = ()=>{ 
 
   return (
-    <section className="total">
+    <ChakraProvider>
+    <Box> 
       <Header/>
       <Hero/>
       <Services/>
       <Skills/>
+      
       <Aboutme/>
-    </section>
+      
+    </Box>
+    
+    
+    </ChakraProvider>
+    
     
   )
 }

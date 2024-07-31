@@ -7,10 +7,12 @@ import html from '../../../../public/html.png'
 import git from '../../../../public/git.png'
 import github from '../../../../public/github.png'
 import './skills.css'
-
+import { useBreakpointValue } from '@chakra-ui/react'
+import {Box } from '@chakra-ui/react'
 
 export default function Skills() {
   return (
+    <Box fontSize={useBreakpointValue({base:"10px",sm:'15px',md:'20px',lg:'26px',xl:'31px',xxl:'36px'})}>
     <section id="skills" className="cont skills">
       <h5 className="h5">SKILLS</h5>
       <h3 className="h3">Mis habilidades</h3>
@@ -53,6 +55,7 @@ export default function Skills() {
         </div>
       </section>
     </section>
+    </Box>
 
   )
 }
