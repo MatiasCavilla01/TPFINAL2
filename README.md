@@ -15,6 +15,6 @@ A mi proyecto se le agregaron cosas apate de las del Portfolio original. Una de 
 
 El responsive de la pagina esta hecho 100% con hook de chakra "UseBreakpointValues" , donde se eliminan imagenes en dispositivos pequeños, se ajustan los tamaños de textos a cada resolucion y lo importante a detallar es que se esconde la barra de navegacion por un icono que actua como menu desplegable tal como se habia dicho que se deberia que hacer para el tp anterior , menu que se abre y cierra dando click en el icono.
 
-deploy realizado en Vercel.
+deploy realizado en Netlify.
 
 MUCHAS GRACIAS!!
